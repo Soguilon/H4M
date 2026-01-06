@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Happy 4th Monthsary 💖</title>
+
+<!-- Pixel Font -->
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<style>
+/* ===== ANIMATED GLOWING BACKGROUND ===== */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+  background: linear-gradient(135deg, #1c1c1c, #3b3b6b, #ff5fa2);
+  background-size: 600% 600%;
+  animation: gradientMove 12s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ===== MAIN CARD ===== */
+.card {
+  width: 90%;
+  max-width: 420px;
+  height: 85vh;
+  background: rgba(20, 16, 32, 0.88);
+  border: 4px solid #ffd6f3;
+  border-radius: 14px;
+  box-shadow:
+    0 0 25px rgba(255, 182, 213, 0.6),
+    0 0 60px rgba(255, 95, 162, 0.3);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== PLAY BUTTON ===== */
+#playBtn {
+  background: #ffb6d9;
+  border: 3px solid #ffd6f3;
+  color: #2a0f1f;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 9px;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#playBtn:hover {
+  background: #ffd6f3;
+}
+
+/* ===== IMAGE HOLDER ===== */
+.image-holder {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: #1a1229;
+  border-bottom: 3px solid #ffd6f3;
+}
+
+.image-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  image-rendering: pixelated;
+}
+
+/* ===== MESSAGE ===== */
+.message {
+  padding: 18px;
+  overflow-y: auto;
+  color: #ffeaf7;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+/* Scrollbar */
+.message::-webkit-scrollbar {
+  width: 6px;
+}
+.message::-webkit-scrollbar-thumb {
+  background: #ffb6d9;
+  border-radius: 10px;
+}
+
+/* Paragraph spacing */
+.message p {
+  margin-bottom: 16px;
+}
+
+/* ===== AUDIO ===== */
+audio {
+  display: none;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 480px) {
+  .card {
+    height: 90vh;
+  }
+  .message {
+    font-size: 10px;
+    padding: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 460px;
+  }
+  .message {
+    font-size: 12px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- MUSIC -->
+<audio id="bgm" loop>
+  <source src="Bituin ng Tadhana.mp3" type="audio/mpeg">
+</audio>
+
+<div class="card">
+
+  <!-- PLAY BUTTON -->
+  <button id="playBtn">▶ tap to start music</button>
+
+  <!-- IMAGE -->
+  <div class="image-holder">
+    <img src="MB.png" alt="Us 💕">
+  </div>
+
+  <!-- MESSAGE -->
+  <div class="message">
+    <p>hallo mi happy 4th monthsary to us 😊</p>
+
+    <p>
+      i just wanna take dis moment to reassure u, appreciate u, n love u a lil louder today 🥰
+      four months wit u alrdy feels so special, so meaningful, n so real 😌
+      thank u pho for staying, for choosing us, n for growing wit me even when things get confusing or hard 🥹
+    </p>
+
+    <p>
+      i appreciate u so much mi 🤗
+      da way u love, da way u care, da way u try even when u r tired or overwhelmed 😚
+      u hab such a gentle heart n such a beautiful soul,
+      n i feel so lucky dat i get to be loved by u 😊
+      u make my days warmer, my thotz calmer,
+      n my heart feel at home just by being u 😘
+    </p>
+
+    <p>
+      even if we hab fights, disagreements, or misunderstandings 🥺
+      i really hope we never bottle things up inside 🙏
+      i want us to be open wit each oder,
+      to talk things out heart to heart, calmly n honestly 🤗
+      bcuz i love u so much n da thought of losing u scares me 🥺
+      i do not want pride or silence to come between us,
+      i just want understanding, patience, n love 🥹
+    </p>
+
+    <p>
+      pls never doubt dis mi 🥺
+      i am not getting tired of u,
+      i am not looking anywhere else,
+      n i am never replacing u 😚
+      my love for u iz steady n growing every single day 🥰
+      even when things feel heavy or messy,
+      i still choose u,
+      n ill keep choosing u again n again 🤗
+    </p>
+
+    <p>
+      u r more than enough just as u are 😚
+      u do not need to change, shrink, or hide ur feelings for me 🥹
+      i love u wit ur moods, ur softness, ur strength,
+      n evry part of u 😊
+      u r safe wit me,
+      u r loved wit me,
+      n u r cherished wit me always 🤗
+    </p>
+
+    <p>
+      thank u pho for deez four months mi 🥰
+      pho ur patience, ur love, ur trust, n ur presence 😌
+      i am so excited pho all da months n memories still ahead of us 🤗
+      ill stay here, loving u gently, proudly, n endlessly 😘
+    </p>
+
+    <p><strong>i love u so much roanne 💖 mwamwa</strong></p>
+  </div>
+</div>
+
+<!-- SCRIPT -->
+<script>
+const btn = document.getElementById("playBtn");
+const audio = document.getElementById("bgm");
+
+btn.addEventListener("click", () => {
+  audio.play();
+  btn.textContent = "♪ playing...";
+  btn.disabled = true;
+});
+</script>
+
+</body>
+</html>
